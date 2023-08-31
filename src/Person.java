@@ -14,6 +14,6 @@ public class Person {
 
     // Define the greet method of the Person class
     public void greet() {
-        System.out.println("Hello, my name is " + this.firstName + " " + this.lastName + " and I am " + this.age + " years old.");
+        System.out.println("Moi, my name is " + this.firstName + " " + this.lastName + " and I am " + this.age + " years old.");
     }
 }
