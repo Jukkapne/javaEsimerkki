@@ -84,9 +84,18 @@ public class App {
 
 
         // removing duplicates from an array
-        // ArrayList<Integer> myListWithDuplicates = new ArrayList<>(Arrays.asList(1, 2, 2, 3, 3));
+        //ArrayList<Integer> myListWithDuplicates = new ArrayList<>(Arrays.asList(1, 2, 2, 3, 3));
+
+
+        // ArrayList<Integer> myListWithDuplicates = new ArrayList<>();
+
+        // myListWithDuplicates.add(1);
+        // myListWithDuplicates.add(2);
+        // myListWithDuplicates.add(2);
+        // myListWithDuplicates.add(3);
+        // myListWithDuplicates.add(3);
     
-        //  Set<Integer> mySetFromList = new HashSet<>(myListWithDuplicates);
+        // Set<Integer> mySetFromList = new HashSet<>(myListWithDuplicates);
 
 
         // for (Integer i : mySetFromList) {
@@ -131,9 +140,9 @@ public class App {
         // System.out.println(arvo);
         // System.out.println(myStack.peek());
         
-        for (String name : myStack) {
-        System.out.println(name);
-        }
+        // for (String name : myStack) {
+        // System.out.println(name);
+        // }
 
 
     }
