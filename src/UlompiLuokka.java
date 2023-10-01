@@ -14,7 +14,9 @@ public class UlompiLuokka {
 
         void tulostaSisaisen(String viesti) {
             System.out.println("Viesti sisempi luokka: " + viesti);
+            UlompiLuokka.tulostaYlaluokanStaattinen("Ulomman luokan metodista: "+viesti);
         }
+        
     }
 //staattisesta sisäluokasta ei voi viitata ulomman luokan muuttujiin tai metodeihin, koska ei ole instanssia. Voit kuitenkin viitata ulomman luokan staattisiin muuttujiin ja metodeihin.
 //staattisesta luokasta voit luoda instanssin ilman että luot ulomman luokan instanssia

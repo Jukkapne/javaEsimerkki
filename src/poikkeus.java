@@ -48,7 +48,7 @@ class OmaExceptionKaytto {
     }
 }
 
-
+//tähän on reaalimaailman esimerkki Tarkastaja.java
 
 
 //try with resources
@@ -83,4 +83,6 @@ class TryCatchKetjutus {
             System.out.println("Ohjelma loppuu");
         }
     }
+
+    
 }
