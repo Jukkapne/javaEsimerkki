@@ -8,9 +8,10 @@ public class App {
         UlompiLuokka.SisempiLuokka sisempi = ulompi.new SisempiLuokka();
         UlompiLuokka.StaticSisempiLuokka staticSisempi = new UlompiLuokka.StaticSisempiLuokka();
 
-       sisempi.tulostaSisaisen("Terve");
-       ulompi.tulostaUlkoisen("moikka");
-       staticSisempi.tulostaStaattisen("hei");
+    
+        ulompi.tulostaUlkoisen("moikka");
+        sisempi.tulostaSisaisen("Terve");
+        staticSisempi.tulostaStaattisen("hei");
         staticSisempi.tulostaYlaluokanStaattinen("hei2");
         
     }
