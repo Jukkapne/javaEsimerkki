@@ -30,9 +30,11 @@ class Finally {
 
 //luodaan oma exception
 class OmaException extends Exception {
-
+        public OmaException() {
+         super(" Oletusviesti");
+    }
     public OmaException(String viesti) {
-        super(viesti+ " ja lisää tietoa");
+         super(viesti+ " ja lisää tietoa");
     }
 }
 
@@ -41,7 +43,7 @@ class OmaExceptionKaytto {
 
     public static void main(String[] args) {
         try {
-            throw new OmaException("Oma virheviesti");
+            throw new OmaException("tyyppi1");
         } catch (OmaException e) {
             System.out.println("Virhe: " + e.getMessage());
         }
